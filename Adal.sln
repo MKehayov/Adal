@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adal", "Adal\Adal.csproj", "{7D1F351E-48AA-46C7-87D7-122F8EDA81F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adal", "Adal\Adal.csproj", "{7D1F351E-48AA-46C7-87D7-122F8EDA81F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adal.Tests", "Adal.Tests\Adal.Tests.csproj", "{54499E21-01A8-49DC-B51C-9932448E8C83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adal.Tests", "Adal.Tests\Adal.Tests.csproj", "{54499E21-01A8-49DC-B51C-9932448E8C83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
