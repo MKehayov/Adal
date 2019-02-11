@@ -30,5 +30,11 @@
         {
             MergeSorter.Sort(dataCollection, GetSortDirectionFunction<T>(sortDirection));            
         }
+
+        public static void InsertionSort<T>(IList<T> dataCollection, SortDirection sortDirection = SortDirection.Asc)
+            where T : IComparable
+        {
+            InsertionSorter.Sort(dataCollection, GetSortDirectionFunction<T>(sortDirection));
+        }
     }
 }
